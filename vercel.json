@@ -14,6 +14,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://laravel-api-dusky.vercel.app",
+        "APP_KEY": "base64:deWOPiwjnNjyGs8fIHo4MLOqjFVrLHA0D1UjBp8C1dc=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
