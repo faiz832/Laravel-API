@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ping', fn () => response()->json(['message' => 'API is working!']));
+Route::get('/pong', fn () => response()->json(['message' => 'API is working!']));
