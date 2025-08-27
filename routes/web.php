@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::get('/ping', fn () => response()->json(['message' => 'API is working!']));
 
 // auth
