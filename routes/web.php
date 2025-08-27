@@ -14,7 +14,7 @@ Route::get('/login', function () {
 Route::get('/ping', fn () => response()->json(['message' => 'Pong from web.php!']));
 Route::get('/api', fn () => response()->json(['message' => 'API is working!']));
 Route::get('/api/v1/ping', fn () => response()->json(['message' => 'Pong from api.php!']));
-Route::get('/api/v1/user', function () {
+Route::get('/user', function () {
     $users = [
         [
             'id' => 1,
