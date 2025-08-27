@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/api/ping', fn () => response()->json(['message' => 'API is working!']));
+Route::get('/ping', fn () => response()->json(['message' => 'API is working!']));
 
 // auth
 Route::post('/api/register', [AuthController::class, 'register']);
